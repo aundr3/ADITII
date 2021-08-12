@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.inner{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.topnav{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.balance{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+    font-weight: 200;
+    font-size: 50px;
+    color: #48b7a7;
+}
+
+#searchBar{
+    width: 300px;
+    height: 30px;
+}
+
+.img-fluid{
+    margin-right: 20px;
+}
+
+.cash{
+    margin-top: 25px;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #48b7a7;
+    font-size: 25px;
+}
+
+.nav{
+    background-color: #4dcdbe;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: black;
+}
+
+.departments{
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.department{
+    margin: 0;
+    text-transform: capitalize;
+    list-style: none;
+    display: inline;
+    border-right: 1px solid white ;
+    padding: 0px 20px 0px 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.department:last-child {
+    border: none;
+}
+
+.section1{
+    background-color: #3dc4b6;
+}
+
+.block1{
+    width: 30%;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.block2{
+    width: 40%;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.section1 .inner{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+}
+
+.img-fluid{
+    margin: 20px;
+}
+
+.product{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.shop-now{
+    border: 1px solid white ;
+    border-radius: 5px;
+    background-color: #3dc4b6 ;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    height: 30px;
+    width: 70px;
+}
+
+.section2 .inner{
+    display: flex;
+    flex-direction: row;
+}
+
+.block3, .block4, .block5{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: #c7c7c7;
+    border-right: 3px solid #f3f3f3;
+    padding-bottom: 25px;
+}
+
+.block5{
+    border: none;
+}
+
+.shop{
+    background-color: #39be91;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 50px;
+}
+
+.featProd{
+    margin: 0;
+    padding: 0;
+    background-color: #3dc4b6;
+}
+
+.feat{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    text-transform: uppercase;
+}
+
+.section3 .inner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.section3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.block6, .block7, .block8, .block9, .block10, .block11{
+    padding: 20px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 3px solid #f3f3f3;
+    border-bottom: 3px solid #39be91;
+    padding: 50px;
+}
+
+.sec3img{
+    margin: 0;
+    padding: 0;
+}
+
+.type{
+    margin: 0;
+    padding: 0;
+    color: #c7c7c7;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.price{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.threehund{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #c7c7c7;
+}
+
+.buy-now{
+    margin-left: 20px;
+    background-color: #39be91;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 70px;
+}
+
+.footerMain{
+    background-color: #3cc3b5;
+    color: white;
+}
+
+.footerMain .inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.foot-head{
+    font-family: 'Oswald', sans-serif;  
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.names{
+    margin: 0;
+    padding: 0;
+}
+
+.name{
+    margin: 0;
+    list-style: none;
+    padding: 3px;
+}
+
+.block12, .block13, .block14, .block15{
+    padding-right: 70px;
+    text-align: left;
+    width: calc(100 / 4);
+}
+
+.colophon{
+    background-color: #2ea89b;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
